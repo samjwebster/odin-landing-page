@@ -60,7 +60,6 @@ li {
     margin: 16px;
 }
 
-
 .info-two {
     background-color: white;
     color: #1F2937;
@@ -94,8 +93,31 @@ li {
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
+.quote {
+    display: flex;
+    align-self: center;
+    margin-left: 15vw;
+    margin-right:15vw;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 16px;
+}
+
+.author {
+    display: flex;
+    max-width: 50%;
+    align-self: flex-end;
+    margin-right: 25vw;
+    font-size: 16px;
+}
 
 .secondary-text {
     color: #E5E7EB;
